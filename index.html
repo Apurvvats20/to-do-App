@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>TO DO TRACKER</title>
+  </head>
+  <body>
+    <div id="main_container">
+      <div id="headings">
+        <h1 id="title_heading">Hello Jason</h1>
+        <img id="settings-icon" src="settings.png" />
+      </div>
+      <div class="task-counter-para">
+        <p id="main-task-counter" class="task-counter-para">
+          13<span class="task-counter-para"> items not completed</span>
+        </p>
+      </div>
+      <div id="task-items-container">
+        <div class="task-items-groups work">
+          <img
+            class="task-item-icon"
+            src="work.png"
+            style="background-color: #265f767f"
+          />
+          <p class="task-item-name">Work</p>
+          <p class="total-task-items">3 tasks</p>
+        </div>
+        <div class="task-items-groups personal">
+          <img
+            class="task-item-icon"
+            src="personal.png"
+            style="background-color: #b0e8fc"
+          />
+          <p class="task-item-name">Personal</p>
+          <p class="total-task-items">3 tasks</p>
+        </div>
+        <div class="task-items-groups life">
+          <img
+            class="task-item-icon"
+            src="life.png"
+            style="background-color: #b0cbfc"
+          />
+          <p class="task-item-name">Life</p>
+          <p class="total-task-items">3 tasks</p>
+        </div>
+        <div class="task-items-groups places">
+          <img
+            class="task-item-icon"
+            src="locations.png"
+            style="background-color: #265f767f"
+          />
+          <p class="task-item-name">Places</p>
+          <p class="total-task-items">3 tasks</p>
+        </div>
+        <div id="add-items" class="task-items-groups">
+          <img src="add-items.png" />
+        </div>
+      </div>
+    </div>
+    <div class="modal Work hidden">
+      <h2 style="text-align: center">WORK TO DO ITEMS</h2>
+      <div class="task-item-container Life">
+        <div class="modal-task-item">
+          <div class="task-content">TASK 1</div>
+          <button class="delete-button">Delete</button>
+        </div>
+        <div class="modal-task-item">
+          <div class="task-content">TASK 2</div>
+          <button class="delete-button">Delete</button>
+        </div>
+      </div>
+      <!-- Add more task items as needed -->
+      <div class="add_task_button Work">
+        <img src="add-items.png" />
+      </div>
+    </div>
+    <div class="modal Personal hidden">
+      <h2 style="text-align: center">PERSONAL TO DO ITEMS</h2>
+      <div class="task-item-container">
+        <div class="modal-task-item">
+          <div class="task-content">TASK 1</div>
+          <button class="delete-button">Delete</button>
+        </div>
+        <div class="modal-task-item">
+          <div class="task-content">TASK 2</div>
+          <button class="delete-button">Delete</button>
+        </div>
+      </div>
+      <!-- Add more task items as needed -->
+      <div class="add_task_button Personal">
+        <img src="add-items.png" />
+      </div>
+    </div>
+    <div class="modal Life hidden">
+      <h2 style="text-align: center">LIFE TO DO ITEMS</h2>
+      <div class="task-item-container">
+        <div class="modal-task-item">
+          <div class="task-content">TASK 1</div>
+          <button class="delete-button">Delete</button>
+        </div>
+        <div class="modal-task-item">
+          <div class="task-content">TASK 2</div>
+          <button class="delete-button">Delete</button>
+        </div>
+      </div>
+      <!-- Add more task items as needed -->
+      <div class="add_task_button Life">
+        <img src="add-items.png" />
+      </div>
+    </div>
+    <div class="modal Places hidden">
+      <h2 style="text-align: center">PLACES TO DO ITEMS</h2>
+      <div class="task-item-container">
+        <div class="modal-task-item">
+          <div class="task-content">TASK 1</div>
+          <button class="delete-button">Delete</button>
+        </div>
+        <div class="modal-task-item">
+          <div class="task-content">TASK 2</div>
+          <button class="delete-button">Delete</button>
+        </div>
+      </div>
+      <!-- Add more task items as needed -->
+      <div class="add_task_button Places">
+        <img src="add-items.png" />
+      </div>
+    </div>
+  </body>
+</html>
